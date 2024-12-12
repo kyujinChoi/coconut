@@ -59,4 +59,4 @@ cd build/
 
 
 ## Collaborators
-Dongkyu Lee(PigBroA) - https://github.com/PigBroA
+`"Looking for Wife...ai! 😋"`, Dongkyu Lee(PigBroA) - https://github.com/PigBroA
