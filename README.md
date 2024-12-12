@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 }
 ```
 
-## build Example
+## Build Example
 ```
 git clone https://github.com/kyujinChoi/coconut.git
 cd coconut/
@@ -46,7 +46,7 @@ mkdir build
 cmake ..; make
 ```
 
-## run Example
+## Run Example
 ```
 cd build/
 ./coconut_example
