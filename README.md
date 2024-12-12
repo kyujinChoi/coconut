@@ -59,7 +59,4 @@ cd build/
 
 
 ## Collaborators
-```
-[Dongkyu Lee(PigBroA)] (https://github.com/PigBroA)
-
-```
+Dongkyu Lee(PigBroA) - https://github.com/PigBroA
