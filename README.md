@@ -1,4 +1,4 @@
-# Coconut is the Pokémon evolution of `cout` uwu ✨
+# `Coconut` is the Pokémon evolution of `cout` uwu ✨
 `🥥` is a namespace that extends the functionality of `std::cout`. It allows you to easily change **text color**, **text style**, and **text background color**. Additionally, it supports a **loading bar** feature. 
 
 ## How to use
