@@ -53,5 +53,5 @@ cd build/
 ```
 
 ## LICENSE
-THE BEER-WARE LICENSE
+🍺🍺 THE BEER-WARE LICENSE 🍺🍺
 
