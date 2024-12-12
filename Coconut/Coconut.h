@@ -73,16 +73,14 @@ namespace coconut // colorcout looks similar to coconut :) uwu
         }
         void loadingBar(int progress, Color fg = Color::DEFAULT, Style style = Style::DEFAULT, Color bg = Color::DEFAULT)
         {
-            // 최대값을 100으로 고정
             if (progress < 0)
                 progress = 0;
             if (progress > 100)
                 progress = 100;
 
-            const int barWidth = 50;               // 로딩바의 고정 너비
-            int pos = (progress * barWidth) / 100; // 로딩바에서 채워질 부분 계산
+            const int barWidth = 50;               
+            int pos = (progress * barWidth) / 100; 
 
-            // 로딩바 출력
             std::cout << setStyle(style, fg, bg) << "\r[";
             for (int i = 0; i < barWidth; ++i)
             {
