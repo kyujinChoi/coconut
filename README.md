@@ -1,6 +1,7 @@
 # `Coconut` is the Pokémon evolution of `cout` uwu ✨
 `🥥` is a namespace that extends the functionality of `std::cout`. It allows you to easily change **text color**, **text style**, and **text background color**. Additionally, it supports a **loading bar** feature. 
 
+
 ## How to use
 #### 1. change `text color`, `text style`, and `text background color`
 
@@ -36,6 +37,7 @@ int main(int argc, char **argv)
 }
 ```
 
+
 ## Build Example
 ```
 git clone https://github.com/kyujinChoi/coconut.git
@@ -44,12 +46,20 @@ mkdir build
 cmake ..; make
 ```
 
+
 ## Run Example
 ```
 cd build/
 ./coconut_example
 ```
 
+
 ## LICENSE
 🍺🍺 THE BEER-WARE LICENSE 🍺🍺
 
+
+## Collaborators
+```
+[Dongkyu Lee(PigBroA)] (https://github.com/PigBroA)
+
+```
