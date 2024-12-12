@@ -27,12 +27,12 @@ int main(int argc, char **argv)
 int main(int argc, char **argv)
 {
   for (int i = 0; i <= 50; ++i) 
-    coconut::coconut.loadingBar(i, coconut::Color::RED); // update loading bar
+    coconut::coconut.loadingBar(i, coconut::Color::GREEN); // update loading bar
     
   std::this_thread::sleep_for(std::chrono::milliseconds(1000)); // delay
-  coconut::coconut.loadingBar(90, coconut::Color::RED);
+  coconut::coconut.loadingBar(90, coconut::Color::GREEN);
   std::this_thread::sleep_for(std::chrono::milliseconds(500)); // delay
-  coconut::coconut.loadingBar(100, coconut::Color::RED);
+  coconut::coconut.loadingBar(100, coconut::Color::GREEN);
 }
 ```
 
