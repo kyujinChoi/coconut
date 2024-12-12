@@ -1,1 +1,51 @@
-# coconut
+# Coconut
+`🥥` is a namespace that extends the functionality of `std::cout`. It allows you to easily change **text color**, **text style**, and **text background color**. Additionally, it supports a **loading bar** feature. `🥥` is the Pokémon evolution of `cout` uwu ✨
+
+## How to use
+#### 1. change `text color`, `text style`, and `text background color`
+```
+#include "Coconut.h"
+
+int main(int argc, char **argv)
+{
+  coconut::coconut.cout("hello\n", coconut::Color::CYAN);
+  coconut::coconut.cout(314, coconut::Color::MAGENTA, coconut::Style::UNDERLINE).endl().endl();
+  coconut::coconut.cout(3.14159, coconut::Color::RED, coconut::Style::BOLD, coconut::Color::YELLOW).endl(3);
+}
+```
+
+![image](https://github.com/user-attachments/assets/14bd51a7-1d1c-4246-b6c0-2993d424587d)
+
+#### 2. `loading bar`
+```
+#include "Coconut.h"
+
+int main(int argc, char **argv)
+{
+  for (int i = 0; i <= 50; ++i) 
+    coconut::coconut.loadingBar(i, coconut::Color::RED); // update loading bar
+    
+  std::this_thread::sleep_for(std::chrono::milliseconds(1000)); // delay
+  coconut::coconut.loadingBar(90, coconut::Color::RED);
+  std::this_thread::sleep_for(std::chrono::milliseconds(500)); // delay
+  coconut::coconut.loadingBar(100, coconut::Color::RED);
+}
+```
+
+![coconut-2024-12-12_16 15 51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/abaf24b6-a430-4e1d-98e7-7311ddc568fd)
+
+
+
+## How to build Example
+```
+git clone https://github.com/kyujinChoi/coconut.git
+cd coconut/
+mkdir build
+cmake ..; make
+```
+
+## How to run Example
+```
+cd build/
+./coconut_example
+```
