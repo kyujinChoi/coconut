@@ -3,6 +3,9 @@
 
 ## How to use
 #### 1. change `text color`, `text style`, and `text background color`
+
+![image](https://github.com/user-attachments/assets/14bd51a7-1d1c-4246-b6c0-2993d424587d)
+
 ```
 #include "Coconut.h"
 
@@ -14,9 +17,10 @@ int main(int argc, char **argv)
 }
 ```
 
-![image](https://github.com/user-attachments/assets/14bd51a7-1d1c-4246-b6c0-2993d424587d)
-
 #### 2. `loading bar`
+
+![coconut-2024-12-12_16 15 51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/abaf24b6-a430-4e1d-98e7-7311ddc568fd)
+
 ```
 #include "Coconut.h"
 
@@ -32,11 +36,7 @@ int main(int argc, char **argv)
 }
 ```
 
-![coconut-2024-12-12_16 15 51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/abaf24b6-a430-4e1d-98e7-7311ddc568fd)
-
-
-
-## How to build Example
+## build Example
 ```
 git clone https://github.com/kyujinChoi/coconut.git
 cd coconut/
@@ -44,8 +44,12 @@ mkdir build
 cmake ..; make
 ```
 
-## How to run Example
+## run Example
 ```
 cd build/
 ./coconut_example
 ```
+
+## LICENSE
+THE BEER-WARE LICENSE
+
