@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(coconut_example LANGUAGES CXX)
 
-include_directories(${CMAKE_SOURCE_DIR}/Coconut)
+include_directories(${CMAKE_SOURCE_DIR})
 
 set(EXCLUDE_PATHS
     "CMakeFiles"

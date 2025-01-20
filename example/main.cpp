@@ -1,4 +1,4 @@
-#include "Coconut.h"
+#include "coconut.h"
 
 int main(int argc, char **argv)
 {
